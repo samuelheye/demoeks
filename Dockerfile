@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM alpine:3.17
 
 COPY build/libs/docker.jar docker.jar
 
