@@ -1,4 +1,4 @@
-FROM openjdk:17-ea-slim-buster
+FROM java:8-jdk-alpine
 
 COPY build/libs/docker.jar docker.jar
 
