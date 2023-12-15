@@ -1,4 +1,4 @@
-FROM java:8-jdk-alpine
+FROM jjava:openjdk-8u111-jre-alpine
 
 COPY build/libs/docker.jar docker.jar
 
